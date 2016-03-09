@@ -1,0 +1,70 @@
+/* global styles and resetting things */
+body {
+  background-image: url("https://s-media-cache-ak0.pinimg.com/236x/3c/8c/8b/3c8c8bd9ea85b7b4ac05d8061ca186f9.jpg");
+  font-family: 'Dosis', sans-serif;;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+header, #profile, #dealbreakers {
+  padding: 20px;
+  margin: 0px 20px 20px 20px;
+  border-radius: 30px;
+}
+
+h1, h2, h3, ul, ol, p {
+  margin: 0;
+}
+
+
+/* header section */
+header {
+  text-align: center;
+  background-color: #FEEBCE;
+  border: solid 1px black;
+}
+
+header h1 {
+  font-size: 60px;
+  color: #F75151;
+}
+
+header h2 {
+  font-size: 30px;
+}
+
+img {
+  border: 3px black solid;
+  margin: 20px;
+}
+
+/* profile section */
+#profile {
+  background-color: #EACA82;
+  border: solid 1px black;
+}
+
+/* dealbreaker section */
+#dealbreakers {
+  background-color: #F75151;
+  border: solid 1px black;
+
+}
+
+/* Line Spacing */
+h1 {
+  margin-bottom: 0px;
+}
+
+h3 {
+  margin-bottom: 5px;
+}
+
+p {
+  line-height: 150%;
+}
+
+ul, ol {
+  margin-bottom: 20px;
+}
+
